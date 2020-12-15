@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fda1e14-7e20-4ccb-b3b4-49522c07c813" name="Default Changelist" comment="" />
+    <list default="true" id="1fda1e14-7e20-4ccb-b3b4-49522c07c813" name="Default Changelist" comment="initial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,8 +55,16 @@
       <option name="presentableId" value="Default" />
       <updated>1607948321357</updated>
       <workItem from="1607948322555" duration="3336000" />
-      <workItem from="1607957290337" duration="3207000" />
+      <workItem from="1607957290337" duration="3537000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1608015033166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608015033166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +81,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607957105492">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -87,17 +99,19 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957271557" />
     <state x="615" y="222" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608014888202" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607957418663">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="736" y="341" key="Vcs.Push.Dialog.v2" timestamp="1608015049098">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957418663" />
+    <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608015049098" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607957108826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957108826" />
-    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607957339989">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1015" y="573" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608014896436">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957339989" />
+    <state x="1015" y="573" key="git4idea.remote.GitConfigureRemotesDialog/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608014896436" />
   </component>
 </project>
