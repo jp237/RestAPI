@@ -56,7 +56,7 @@ class GetCaseInformationInputParameters implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'internal_id' => 'int'    ];
+        'internal_id' => 'string'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class GetCaseInformationInputParameters implements ModelInterface, ArrayAccess
     /**
      * Gets internal_id
      *
-     * @return int
+     * @return string
      */
     public function getInternalId()
     {
@@ -209,7 +209,7 @@ class GetCaseInformationInputParameters implements ModelInterface, ArrayAccess
     /**
      * Sets internal_id
      *
-     * @param int $internal_id internal id from customer invoice
+     * @param string $internal_id internal id from customer invoice
      *
      * @return $this
      */

@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**internal_id** | **int** | interal id from invoice | [optional] 
+**internal_id** | **string** | interal id from invoice | [optional] 
 **message** | **string** | Message | [optional] 
 **document** | **string** | base64encoded document | [optional] 
 

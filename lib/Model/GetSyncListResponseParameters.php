@@ -56,7 +56,7 @@ class GetSyncListResponseParameters implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sync_list' => 'int[]'    ];
+        'sync_list' => 'string[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class GetSyncListResponseParameters implements ModelInterface, ArrayAccess
     /**
      * Gets sync_list
      *
-     * @return int[]
+     * @return string[]
      */
     public function getSyncList()
     {
@@ -209,7 +209,7 @@ class GetSyncListResponseParameters implements ModelInterface, ArrayAccess
     /**
      * Sets sync_list
      *
-     * @param int[] $sync_list internalIds to use for sync endpoint
+     * @param string[] $sync_list internalIds to use for sync endpoint
      *
      * @return $this
      */

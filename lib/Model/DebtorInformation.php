@@ -68,7 +68,8 @@ class DebtorInformation implements ModelInterface, ArrayAccess
 'fax' => 'string',
 'evdate' => 'string',
 'dateofbirth' => 'string',
-'payment_information' => '\VOP\Rest\Model\CasePaymentInformation[]'    ];
+'payment_information' => '\VOP\Rest\Model\CasePaymentInformation[]',
+'payment_details' => '\VOP\Rest\Model\CasePaymentDetails[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -88,7 +89,8 @@ class DebtorInformation implements ModelInterface, ArrayAccess
 'fax' => null,
 'evdate' => null,
 'dateofbirth' => null,
-'payment_information' => null    ];
+'payment_information' => null,
+'payment_details' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -129,7 +131,8 @@ class DebtorInformation implements ModelInterface, ArrayAccess
 'fax' => 'fax',
 'evdate' => 'evdate',
 'dateofbirth' => 'dateofbirth',
-'payment_information' => 'paymentInformation'    ];
+'payment_information' => 'paymentInformation',
+'payment_details' => 'paymentDetails'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -149,7 +152,8 @@ class DebtorInformation implements ModelInterface, ArrayAccess
 'fax' => 'setFax',
 'evdate' => 'setEvdate',
 'dateofbirth' => 'setDateofbirth',
-'payment_information' => 'setPaymentInformation'    ];
+'payment_information' => 'setPaymentInformation',
+'payment_details' => 'setPaymentDetails'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -169,7 +173,8 @@ class DebtorInformation implements ModelInterface, ArrayAccess
 'fax' => 'getFax',
 'evdate' => 'getEvdate',
 'dateofbirth' => 'getDateofbirth',
-'payment_information' => 'getPaymentInformation'    ];
+'payment_information' => 'getPaymentInformation',
+'payment_details' => 'getPaymentDetails'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -242,6 +247,7 @@ class DebtorInformation implements ModelInterface, ArrayAccess
         $this->container['evdate'] = isset($data['evdate']) ? $data['evdate'] : null;
         $this->container['dateofbirth'] = isset($data['dateofbirth']) ? $data['dateofbirth'] : null;
         $this->container['payment_information'] = isset($data['payment_information']) ? $data['payment_information'] : null;
+        $this->container['payment_details'] = isset($data['payment_details']) ? $data['payment_details'] : null;
     }
 
     /**
@@ -576,6 +582,30 @@ class DebtorInformation implements ModelInterface, ArrayAccess
     public function setPaymentInformation($payment_information)
     {
         $this->container['payment_information'] = $payment_information;
+
+        return $this;
+    }
+
+    /**
+     * Gets payment_details
+     *
+     * @return \VOP\Rest\Model\CasePaymentDetails[]
+     */
+    public function getPaymentDetails()
+    {
+        return $this->container['payment_details'];
+    }
+
+    /**
+     * Sets payment_details
+     *
+     * @param \VOP\Rest\Model\CasePaymentDetails[] $payment_details Paymentinformation table
+     *
+     * @return $this
+     */
+    public function setPaymentDetails($payment_details)
+    {
+        $this->container['payment_details'] = $payment_details;
 
         return $this;
     }

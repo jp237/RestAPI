@@ -58,7 +58,7 @@ class VopInvoiceDetail implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'mingeb' => 'float',
 'maxgeb' => 'float',
-'gebtext' => 'float',
+'gebtext' => 'string',
 'gebuehr' => 'float',
 'gebuehr1' => 'float',
 'rownumber' => 'int',
@@ -72,7 +72,7 @@ class VopInvoiceDetail implements ModelInterface, ArrayAccess
     protected static $swaggerFormats = [
         'mingeb' => 'float',
 'maxgeb' => 'float',
-'gebtext' => 'float',
+'gebtext' => null,
 'gebuehr' => 'float',
 'gebuehr1' => 'float',
 'rownumber' => null,
@@ -283,7 +283,7 @@ class VopInvoiceDetail implements ModelInterface, ArrayAccess
     /**
      * Gets gebtext
      *
-     * @return float
+     * @return string
      */
     public function getGebtext()
     {
@@ -293,7 +293,7 @@ class VopInvoiceDetail implements ModelInterface, ArrayAccess
     /**
      * Sets gebtext
      *
-     * @param float $gebtext mingeb
+     * @param string $gebtext mingeb
      *
      * @return $this
      */

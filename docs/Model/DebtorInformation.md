@@ -16,6 +16,7 @@ Name | Type | Description | Notes
 **evdate** | **string** | evdate | [optional] 
 **dateofbirth** | **string** | date of birth | [optional] 
 **payment_information** | [**\VOP\Rest\Model\CasePaymentInformation[]**](CasePaymentInformation.md) | Paymentinformation table | [optional] 
+**payment_details** | [**\VOP\Rest\Model\CasePaymentDetails[]**](CasePaymentDetails.md) | Paymentinformation table | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

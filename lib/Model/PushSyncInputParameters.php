@@ -57,7 +57,7 @@ class PushSyncInputParameters implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'sync' => '\VOP\Rest\Model\SyncData',
-'internal_id' => 'int'    ];
+'internal_id' => 'string'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -229,7 +229,7 @@ class PushSyncInputParameters implements ModelInterface, ArrayAccess
     /**
      * Gets internal_id
      *
-     * @return int
+     * @return string
      */
     public function getInternalId()
     {
@@ -239,7 +239,7 @@ class PushSyncInputParameters implements ModelInterface, ArrayAccess
     /**
      * Sets internal_id
      *
-     * @param int $internal_id internalid
+     * @param string $internal_id internalid
      *
      * @return $this
      */

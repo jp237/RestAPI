@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mingeb** | **float** | mingeb | [optional] 
 **maxgeb** | **float** | mingeb | [optional] 
-**gebtext** | **float** | mingeb | [optional] 
+**gebtext** | **string** | mingeb | [optional] 
 **gebuehr** | **float** | mingeb | [optional] 
 **gebuehr1** | **float** | mingeb | [optional] 
 **rownumber** | **int** | rownumber | [optional] 

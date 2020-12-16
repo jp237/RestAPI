@@ -56,7 +56,7 @@ class PushMessageInputParameters implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'internal_id' => 'int',
+        'internal_id' => 'string',
 'message' => 'string',
 'document' => 'string'    ];
 
@@ -211,7 +211,7 @@ class PushMessageInputParameters implements ModelInterface, ArrayAccess
     /**
      * Gets internal_id
      *
-     * @return int
+     * @return string
      */
     public function getInternalId()
     {
@@ -221,7 +221,7 @@ class PushMessageInputParameters implements ModelInterface, ArrayAccess
     /**
      * Sets internal_id
      *
-     * @param int $internal_id interal id from invoice
+     * @param string $internal_id interal id from invoice
      *
      * @return $this
      */

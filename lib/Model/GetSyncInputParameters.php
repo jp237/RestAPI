@@ -56,7 +56,7 @@ class GetSyncInputParameters implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'internal_id' => 'int',
+        'internal_id' => 'string',
 'booking_list' => '\VOP\Rest\Model\BookedInvoice[]'    ];
 
     /**
@@ -205,7 +205,7 @@ class GetSyncInputParameters implements ModelInterface, ArrayAccess
     /**
      * Gets internal_id
      *
-     * @return int
+     * @return string
      */
     public function getInternalId()
     {
@@ -215,7 +215,7 @@ class GetSyncInputParameters implements ModelInterface, ArrayAccess
     /**
      * Sets internal_id
      *
-     * @param int $internal_id internal id
+     * @param string $internal_id internal id
      *
      * @return $this
      */
