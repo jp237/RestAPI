@@ -20,11 +20,11 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/jp237/RestAPI.git"
+      "url": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git"
     }
   ],
   "require": {
-    "jp237/RestAPI": "*@dev"
+    "GIT_USER_ID/GIT_REPO_ID": "*@dev"
   }
 }
 ```
@@ -59,18 +59,19 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: apiAuth
 $config = VOP\Rest\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new VOP\Rest\Api\BonigatewayBusinessApi(
+$apiInstance = new VOP\Rest\Api\BonigatewayaddresscheckApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
+$body = new \VOP\Rest\Model\GetPostDirektInputParameters(); // \VOP\Rest\Model\GetPostDirektInputParameters | 
 
 try {
-    $result = $apiInstance->bonigatewayBusinessGetProductListGet();
+    $result = $apiInstance->bonigatewayAddresscheckGetPostDirektPost($body);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling BonigatewayBusinessApi->bonigatewayBusinessGetProductListGet: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling BonigatewayaddresscheckApi->bonigatewayAddresscheckGetPostDirektPost: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -81,11 +82,11 @@ All URIs are relative to *https://rest.eaponline.de*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*BonigatewayBusinessApi* | [**bonigatewayBusinessGetProductListGet**](docs/Api/BonigatewayBusinessApi.md#bonigatewaybusinessgetproductlistget) | **GET** /bonigateway/Business/getProductList | 
 *BonigatewayaddresscheckApi* | [**bonigatewayAddresscheckGetPostDirektPost**](docs/Api/BonigatewayaddresscheckApi.md#bonigatewayaddresscheckgetpostdirektpost) | **POST** /bonigateway/addresscheck/getPostDirekt | 
 *BonigatewayblacklistApi* | [**bonigatewayBlacklistSetBlacklistPost**](docs/Api/BonigatewayblacklistApi.md#bonigatewayblacklistsetblacklistpost) | **POST** /bonigateway/blacklist/setBlacklist | 
 *BonigatewaybusinessApi* | [**bonigatewayBusinessGetBusinessListPost**](docs/Api/BonigatewaybusinessApi.md#bonigatewaybusinessgetbusinesslistpost) | **POST** /bonigateway/business/getBusinessList | 
 *BonigatewaybusinessApi* | [**bonigatewayBusinessGetBusinessReportProductAccountIdIdReasonResellingGet**](docs/Api/BonigatewaybusinessApi.md#bonigatewaybusinessgetbusinessreportproductaccountididreasonresellingget) | **GET** /bonigateway/business/getBusinessReport/{product}/{accountId}/{id}/{reason}/{reselling} | 
+*BonigatewaybusinessApi* | [**bonigatewayBusinessGetProductListGet**](docs/Api/BonigatewaybusinessApi.md#bonigatewaybusinessgetproductlistget) | **GET** /bonigateway/business/getProductList | 
 *BonigatewaybusinessApi* | [**bonigatewayBusinessGetRequestBusinessGetDocumentResellingPost**](docs/Api/BonigatewaybusinessApi.md#bonigatewaybusinessgetrequestbusinessgetdocumentresellingpost) | **POST** /bonigateway/business/getRequestBusiness/{getDocument}/{reselling} | 
 *BonigatewayconfigurationApi* | [**bonigatewayConfigurationGetAccountListGet**](docs/Api/BonigatewayconfigurationApi.md#bonigatewayconfigurationgetaccountlistget) | **GET** /bonigateway/configuration/getAccountList | 
 *BonigatewayconfigurationApi* | [**bonigatewayConfigurationGetProjectInformationGet**](docs/Api/BonigatewayconfigurationApi.md#bonigatewayconfigurationgetprojectinformationget) | **GET** /bonigateway/configuration/getProjectInformation | 
