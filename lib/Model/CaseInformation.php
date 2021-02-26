@@ -66,7 +66,8 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'debtors' => '\VOP\Rest\Model\DebtorInformation[]',
 'history_information' => '\VOP\Rest\Model\CaseHistoryInformation[]',
 'case_status' => 'string',
-'invoice_list' => 'string[]'    ];
+'invoice_list' => 'string[]',
+'html' => 'string'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -84,7 +85,8 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'debtors' => null,
 'history_information' => null,
 'case_status' => null,
-'invoice_list' => null    ];
+'invoice_list' => null,
+'html' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -123,7 +125,8 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'debtors' => 'debtors',
 'history_information' => 'historyInformation',
 'case_status' => 'caseStatus',
-'invoice_list' => 'invoiceList'    ];
+'invoice_list' => 'invoiceList',
+'html' => 'html'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -141,7 +144,8 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'debtors' => 'setDebtors',
 'history_information' => 'setHistoryInformation',
 'case_status' => 'setCaseStatus',
-'invoice_list' => 'setInvoiceList'    ];
+'invoice_list' => 'setInvoiceList',
+'html' => 'setHtml'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -159,7 +163,8 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'debtors' => 'getDebtors',
 'history_information' => 'getHistoryInformation',
 'case_status' => 'getCaseStatus',
-'invoice_list' => 'getInvoiceList'    ];
+'invoice_list' => 'getInvoiceList',
+'html' => 'getHtml'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -230,6 +235,7 @@ class CaseInformation implements ModelInterface, ArrayAccess
         $this->container['history_information'] = isset($data['history_information']) ? $data['history_information'] : null;
         $this->container['case_status'] = isset($data['case_status']) ? $data['case_status'] : null;
         $this->container['invoice_list'] = isset($data['invoice_list']) ? $data['invoice_list'] : null;
+        $this->container['html'] = isset($data['html']) ? $data['html'] : null;
     }
 
     /**
@@ -516,6 +522,30 @@ class CaseInformation implements ModelInterface, ArrayAccess
     public function setInvoiceList($invoice_list)
     {
         $this->container['invoice_list'] = $invoice_list;
+
+        return $this;
+    }
+
+    /**
+     * Gets html
+     *
+     * @return string
+     */
+    public function getHtml()
+    {
+        return $this->container['html'];
+    }
+
+    /**
+     * Sets html
+     *
+     * @param string $html html view
+     *
+     * @return $this
+     */
+    public function setHtml($html)
+    {
+        $this->container['html'] = $html;
 
         return $this;
     }

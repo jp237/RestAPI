@@ -1,5 +1,5 @@
 {
-    "name": "jp237/RestAPI",
+    "name": "GIT_USER_ID/GIT_REPO_ID",
     "description": "",
     "keywords": [
         "swagger",
@@ -7,7 +7,7 @@
         "sdk",
         "api"
     ],
-    "homepage": "http://www.inkasso-vop.de",
+    "homepage": "http://swagger.io",
     "license": "proprietary",
     "authors": [
         {

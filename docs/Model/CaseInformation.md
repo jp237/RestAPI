@@ -14,6 +14,7 @@ Name | Type | Description | Notes
 **history_information** | [**\VOP\Rest\Model\CaseHistoryInformation[]**](CaseHistoryInformation.md) | HistoryInformation table | [optional] 
 **case_status** | **string** | Statusinformation for case | [optional] 
 **invoice_list** | **string[]** | invoices in this case | [optional] 
+**html** | **string** | html view | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

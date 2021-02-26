@@ -10,9 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fda1e14-7e20-4ccb-b3b4-49522c07c813" name="Default Changelist" comment="updating readme">
+    <list default="true" id="1fda1e14-7e20-4ccb-b3b4-49522c07c813" name="Default Changelist" comment="wrong filename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CaseInformation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Model/CaseInformation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CaseInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/CaseInformation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,8 @@
       <workItem from="1607957290337" duration="5317000" />
       <workItem from="1608017160220" duration="586000" />
       <workItem from="1608103116925" duration="15000" />
-      <workItem from="1608114139505" duration="2254000" />
+      <workItem from="1608114139505" duration="3395000" />
+      <workItem from="1614328032449" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1608015033166</created>
@@ -140,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608197041510</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="wrong tag">
+      <created>1608197082569</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608197082569</updated>
+    </task>
+    <task id="LOCAL-00013" summary="wrong filename">
+      <created>1608197617982</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608197617982</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +179,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="updating readme" />
     <MESSAGE value="wrong tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrong tag" />
+    <MESSAGE value="wrong filename" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong filename" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607957105492">
@@ -178,12 +196,12 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957271557" />
     <state x="615" y="222" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608017185618" />
-    <state x="736" y="341" key="Vcs.Push.Dialog.v2" timestamp="1608197049093">
+    <state x="736" y="341" key="Vcs.Push.Dialog.v2" timestamp="1608197619463">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608115704377" />
     <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608017545852" />
-    <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.1065.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608197049093" />
+    <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.1065.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608197619463" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607957108826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
