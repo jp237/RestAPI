@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1fda1e14-7e20-4ccb-b3b4-49522c07c813" name="Default Changelist" comment="wrong filename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Model/CaseInformation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Model/CaseInformation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Model/CaseInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/CaseInformation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <workItem from="1608017160220" duration="586000" />
       <workItem from="1608103116925" duration="15000" />
       <workItem from="1608114139505" duration="3395000" />
-      <workItem from="1614328032449" duration="308000" />
+      <workItem from="1614328032449" duration="1569000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1608015033166</created>
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608197617982</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="wrong filename">
+      <created>1614328369465</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614328369466</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +200,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957271557" />
     <state x="615" y="222" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608017185618" />
-    <state x="736" y="341" key="Vcs.Push.Dialog.v2" timestamp="1608197619463">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614328371333">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608115704377" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614328371333" />
     <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608017545852" />
     <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.1065.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608197619463" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607957108826">
@@ -211,5 +215,9 @@
     </state>
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957339989" />
     <state x="1015" y="573" key="git4idea.remote.GitConfigureRemotesDialog/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608017219697" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614328348482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614328348482" />
   </component>
 </project>
