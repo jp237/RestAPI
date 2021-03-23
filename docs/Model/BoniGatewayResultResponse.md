@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **secure_payment** | **bool** | flag to secure payment | [optional] 
 **raw_data** | **object** | raw data of response | [optional] 
 **document** | **object** | base64encoded document | [optional] 
-**project** | **object** | ProjectInformation document | [optional] 
+**project** | [**\VOP\Rest\Model\ProjectInformation**](ProjectInformation.md) |  | [optional] 
 **additional_texts** | **string[]** | Additional Text Responses | [optional] 
 **identity_flags** | [**\VOP\Rest\Model\PrivatIdentityFlags**](PrivatIdentityFlags.md) |  | [optional] 
 **logs** | **string[]** | additional loggin data | [optional] 

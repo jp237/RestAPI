@@ -12,6 +12,7 @@ Name | Type | Description | Notes
 **description2** | **string** | description2 | [optional] 
 **document_id** | **string** | documentId | [optional] 
 **filetype** | **string** | filetype | [optional] 
+**document_token** | **string** | filetype | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

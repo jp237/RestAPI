@@ -64,7 +64,8 @@ class CaseHistoryInformation implements ModelInterface, ArrayAccess
 'description' => 'string',
 'description2' => 'string',
 'document_id' => 'string',
-'filetype' => 'string'    ];
+'filetype' => 'string',
+'document_token' => 'string'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -80,7 +81,8 @@ class CaseHistoryInformation implements ModelInterface, ArrayAccess
 'description' => null,
 'description2' => null,
 'document_id' => null,
-'filetype' => null    ];
+'filetype' => null,
+'document_token' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -117,7 +119,8 @@ class CaseHistoryInformation implements ModelInterface, ArrayAccess
 'description' => 'description',
 'description2' => 'description2',
 'document_id' => 'documentId',
-'filetype' => 'filetype'    ];
+'filetype' => 'filetype',
+'document_token' => 'documentToken'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -133,7 +136,8 @@ class CaseHistoryInformation implements ModelInterface, ArrayAccess
 'description' => 'setDescription',
 'description2' => 'setDescription2',
 'document_id' => 'setDocumentId',
-'filetype' => 'setFiletype'    ];
+'filetype' => 'setFiletype',
+'document_token' => 'setDocumentToken'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -149,7 +153,8 @@ class CaseHistoryInformation implements ModelInterface, ArrayAccess
 'description' => 'getDescription',
 'description2' => 'getDescription2',
 'document_id' => 'getDocumentId',
-'filetype' => 'getFiletype'    ];
+'filetype' => 'getFiletype',
+'document_token' => 'getDocumentToken'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -218,6 +223,7 @@ class CaseHistoryInformation implements ModelInterface, ArrayAccess
         $this->container['description2'] = isset($data['description2']) ? $data['description2'] : null;
         $this->container['document_id'] = isset($data['document_id']) ? $data['document_id'] : null;
         $this->container['filetype'] = isset($data['filetype']) ? $data['filetype'] : null;
+        $this->container['document_token'] = isset($data['document_token']) ? $data['document_token'] : null;
     }
 
     /**
@@ -456,6 +462,30 @@ class CaseHistoryInformation implements ModelInterface, ArrayAccess
     public function setFiletype($filetype)
     {
         $this->container['filetype'] = $filetype;
+
+        return $this;
+    }
+
+    /**
+     * Gets document_token
+     *
+     * @return string
+     */
+    public function getDocumentToken()
+    {
+        return $this->container['document_token'];
+    }
+
+    /**
+     * Sets document_token
+     *
+     * @param string $document_token filetype
+     *
+     * @return $this
+     */
+    public function setDocumentToken($document_token)
+    {
+        $this->container['document_token'] = $document_token;
 
         return $this;
     }

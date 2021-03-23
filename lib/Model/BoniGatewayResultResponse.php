@@ -64,7 +64,7 @@ class BoniGatewayResultResponse implements ModelInterface, ArrayAccess
 'secure_payment' => 'bool',
 'raw_data' => 'object',
 'document' => 'object',
-'project' => 'object',
+'project' => '\VOP\Rest\Model\ProjectInformation',
 'additional_texts' => 'string[]',
 'identity_flags' => '\VOP\Rest\Model\PrivatIdentityFlags',
 'logs' => 'string[]'    ];
@@ -457,7 +457,7 @@ class BoniGatewayResultResponse implements ModelInterface, ArrayAccess
     /**
      * Gets project
      *
-     * @return object
+     * @return \VOP\Rest\Model\ProjectInformation
      */
     public function getProject()
     {
@@ -467,7 +467,7 @@ class BoniGatewayResultResponse implements ModelInterface, ArrayAccess
     /**
      * Sets project
      *
-     * @param object $project ProjectInformation document
+     * @param \VOP\Rest\Model\ProjectInformation $project project
      *
      * @return $this
      */
