@@ -12,6 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1fda1e14-7e20-4ccb-b3b4-49522c07c813" name="Default Changelist" comment="composer change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CaseInformation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Model/CaseInformation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/GetInformationResponseParameters.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Model/GetInformationResponseParameters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CaseInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/CaseInformation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/GetInformationResponseParameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/GetInformationResponseParameters.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +67,9 @@
       <workItem from="1608103116925" duration="15000" />
       <workItem from="1608114139505" duration="3395000" />
       <workItem from="1614328032449" duration="6453000" />
+      <workItem from="1616487152394" duration="844000" />
+      <workItem from="1620211504263" duration="790000" />
+      <workItem from="1621336976741" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1608015033166</created>
@@ -175,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614332145476</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changed annotation">
+      <created>1616487233661</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616487233662</updated>
+    </task>
+    <task id="LOCAL-00018" summary="composer change">
+      <created>1616487380614</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616487380614</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +220,7 @@
     <MESSAGE value="updating readme" />
     <MESSAGE value="wrong tag" />
     <MESSAGE value="wrong filename" />
+    <MESSAGE value="changed annotation" />
     <MESSAGE value="composer change" />
     <option name="LAST_COMMIT_MESSAGE" value="composer change" />
   </component>
@@ -215,10 +238,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607957271557" />
     <state x="615" y="222" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608017185618" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614332147025">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616487382007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614332147025" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616487382007" />
     <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608017545852" />
     <state x="736" y="341" key="Vcs.Push.Dialog.v2/3840.1065.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1608197619463" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607957108826">

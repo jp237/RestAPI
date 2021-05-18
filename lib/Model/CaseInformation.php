@@ -64,6 +64,7 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'case_contact_person' => '\VOP\Rest\Model\CaseContactPerson',
 'title_date' => 'string',
 'debtors' => '\VOP\Rest\Model\DebtorInformation[]',
+'creditor' => '\VOP\Rest\Model\CreditorInformation',
 'history_information' => '\VOP\Rest\Model\CaseHistoryInformation[]',
 'case_status' => 'string',
 'invoice_list' => 'string[]',
@@ -83,6 +84,7 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'case_contact_person' => null,
 'title_date' => null,
 'debtors' => null,
+'creditor' => null,
 'history_information' => null,
 'case_status' => null,
 'invoice_list' => null,
@@ -123,6 +125,7 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'case_contact_person' => 'caseContactPerson',
 'title_date' => 'titleDate',
 'debtors' => 'debtors',
+'creditor' => 'creditor',
 'history_information' => 'historyInformation',
 'case_status' => 'caseStatus',
 'invoice_list' => 'invoiceList',
@@ -142,6 +145,7 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'case_contact_person' => 'setCaseContactPerson',
 'title_date' => 'setTitleDate',
 'debtors' => 'setDebtors',
+'creditor' => 'setCreditor',
 'history_information' => 'setHistoryInformation',
 'case_status' => 'setCaseStatus',
 'invoice_list' => 'setInvoiceList',
@@ -161,6 +165,7 @@ class CaseInformation implements ModelInterface, ArrayAccess
 'case_contact_person' => 'getCaseContactPerson',
 'title_date' => 'getTitleDate',
 'debtors' => 'getDebtors',
+'creditor' => 'getCreditor',
 'history_information' => 'getHistoryInformation',
 'case_status' => 'getCaseStatus',
 'invoice_list' => 'getInvoiceList',
@@ -232,6 +237,7 @@ class CaseInformation implements ModelInterface, ArrayAccess
         $this->container['case_contact_person'] = isset($data['case_contact_person']) ? $data['case_contact_person'] : null;
         $this->container['title_date'] = isset($data['title_date']) ? $data['title_date'] : null;
         $this->container['debtors'] = isset($data['debtors']) ? $data['debtors'] : null;
+        $this->container['creditor'] = isset($data['creditor']) ? $data['creditor'] : null;
         $this->container['history_information'] = isset($data['history_information']) ? $data['history_information'] : null;
         $this->container['case_status'] = isset($data['case_status']) ? $data['case_status'] : null;
         $this->container['invoice_list'] = isset($data['invoice_list']) ? $data['invoice_list'] : null;
@@ -450,6 +456,30 @@ class CaseInformation implements ModelInterface, ArrayAccess
     public function setDebtors($debtors)
     {
         $this->container['debtors'] = $debtors;
+
+        return $this;
+    }
+
+    /**
+     * Gets creditor
+     *
+     * @return \VOP\Rest\Model\CreditorInformation
+     */
+    public function getCreditor()
+    {
+        return $this->container['creditor'];
+    }
+
+    /**
+     * Sets creditor
+     *
+     * @param \VOP\Rest\Model\CreditorInformation $creditor creditor
+     *
+     * @return $this
+     */
+    public function setCreditor($creditor)
+    {
+        $this->container['creditor'] = $creditor;
 
         return $this;
     }

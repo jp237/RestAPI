@@ -136,6 +136,7 @@ Class | Method | HTTP request | Description
  - [CompareVersionInputParameters](docs/Model/CompareVersionInputParameters.md)
  - [CompareVersionResponseParameters](docs/Model/CompareVersionResponseParameters.md)
  - [CompleteOrderInputParameters](docs/Model/CompleteOrderInputParameters.md)
+ - [CreditorInformation](docs/Model/CreditorInformation.md)
  - [CustomDataResponse](docs/Model/CustomDataResponse.md)
  - [CustomerAddressInformation](docs/Model/CustomerAddressInformation.md)
  - [CustomerContactInformation](docs/Model/CustomerContactInformation.md)

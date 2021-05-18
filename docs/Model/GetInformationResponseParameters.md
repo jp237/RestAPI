@@ -8,6 +8,7 @@ Name | Type | Description | Notes
 **fee** | **float** | fee | [optional] 
 **interest** | **float** | interest | [optional] 
 **target_iban** | **string** | Target IBAN | [optional] 
+**target_bic** | **string** | Target BIC | [optional] 
 **purpose** | **string** | client reference | [optional] 
 **email_date** | **string** | datetime email | [optional] 
 

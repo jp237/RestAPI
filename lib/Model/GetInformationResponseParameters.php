@@ -61,6 +61,7 @@ class GetInformationResponseParameters implements ModelInterface, ArrayAccess
 'fee' => 'float',
 'interest' => 'float',
 'target_iban' => 'string',
+'target_bic' => 'string',
 'purpose' => 'string',
 'email_date' => 'string'    ];
 
@@ -75,6 +76,7 @@ class GetInformationResponseParameters implements ModelInterface, ArrayAccess
 'fee' => 'float',
 'interest' => 'float',
 'target_iban' => null,
+'target_bic' => null,
 'purpose' => null,
 'email_date' => null    ];
 
@@ -110,6 +112,7 @@ class GetInformationResponseParameters implements ModelInterface, ArrayAccess
 'fee' => 'fee',
 'interest' => 'interest',
 'target_iban' => 'targetIBAN',
+'target_bic' => 'targetBIC',
 'purpose' => 'purpose',
 'email_date' => 'emailDate'    ];
 
@@ -124,6 +127,7 @@ class GetInformationResponseParameters implements ModelInterface, ArrayAccess
 'fee' => 'setFee',
 'interest' => 'setInterest',
 'target_iban' => 'setTargetIban',
+'target_bic' => 'setTargetBic',
 'purpose' => 'setPurpose',
 'email_date' => 'setEmailDate'    ];
 
@@ -138,6 +142,7 @@ class GetInformationResponseParameters implements ModelInterface, ArrayAccess
 'fee' => 'getFee',
 'interest' => 'getInterest',
 'target_iban' => 'getTargetIban',
+'target_bic' => 'getTargetBic',
 'purpose' => 'getPurpose',
 'email_date' => 'getEmailDate'    ];
 
@@ -204,6 +209,7 @@ class GetInformationResponseParameters implements ModelInterface, ArrayAccess
         $this->container['fee'] = isset($data['fee']) ? $data['fee'] : null;
         $this->container['interest'] = isset($data['interest']) ? $data['interest'] : null;
         $this->container['target_iban'] = isset($data['target_iban']) ? $data['target_iban'] : null;
+        $this->container['target_bic'] = isset($data['target_bic']) ? $data['target_bic'] : null;
         $this->container['purpose'] = isset($data['purpose']) ? $data['purpose'] : null;
         $this->container['email_date'] = isset($data['email_date']) ? $data['email_date'] : null;
     }
@@ -348,6 +354,30 @@ class GetInformationResponseParameters implements ModelInterface, ArrayAccess
     public function setTargetIban($target_iban)
     {
         $this->container['target_iban'] = $target_iban;
+
+        return $this;
+    }
+
+    /**
+     * Gets target_bic
+     *
+     * @return string
+     */
+    public function getTargetBic()
+    {
+        return $this->container['target_bic'];
+    }
+
+    /**
+     * Sets target_bic
+     *
+     * @param string $target_bic Target BIC
+     *
+     * @return $this
+     */
+    public function setTargetBic($target_bic)
+    {
+        $this->container['target_bic'] = $target_bic;
 
         return $this;
     }

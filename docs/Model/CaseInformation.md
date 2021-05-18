@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **case_contact_person** | [**\VOP\Rest\Model\CaseContactPerson**](CaseContactPerson.md) |  | [optional] 
 **title_date** | **string** | date of case creation | [optional] 
 **debtors** | [**\VOP\Rest\Model\DebtorInformation[]**](DebtorInformation.md) | date of case creation | [optional] 
+**creditor** | [**\VOP\Rest\Model\CreditorInformation**](CreditorInformation.md) |  | [optional] 
 **history_information** | [**\VOP\Rest\Model\CaseHistoryInformation[]**](CaseHistoryInformation.md) | HistoryInformation table | [optional] 
 **case_status** | **string** | Statusinformation for case | [optional] 
 **invoice_list** | **string[]** | invoices in this case | [optional] 
